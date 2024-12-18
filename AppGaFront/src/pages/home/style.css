@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+.flexColum {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #47b733c5;
+  text-shadow: 0px 0px 17px rgb(29, 221, 39);
+}
+.flexColum h1 {
+  margin-bottom: 33px;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: -webkit-linear-gradient(
+    233deg,
+    rgba(35, 66, 35, 0.774),
+    rgba(50, 206, 50, 0.265),
+    white,
+    rgb(253, 253, 255),
+    white,
+    rgb(253, 253, 255),
+    rgba(35, 53, 215, 0.568),
+    rgba(35, 53, 215, 0.502)
+  );
+  display: flex;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+form {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  width: 100%;
+  height: 3vw;
+  justify-content: space-around;
+  align-items: center;
+  gap: 13px;
+}
+.rows {
+  display: flex;
+  flex-direction: column;
+}
+h5 {
+  color: rgba(241, 248, 248, 0.63);
+}
+.info {
+  background-image: -webkit-linear-gradient(
+    233deg,
+    rgba(25, 210, 25, 0.847),
+    rgb(24, 40, 222)
+  );
+  height: 10vw;
+  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  padding: 13px;
+  border-radius: 33px;
+  box-shadow: 0px 0px 11px;
+  margin: 13px;
+}
+.info-geral1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-image: -webkit-linear-gradient(
+    233deg,
+    rgba(25, 210, 25, 0.847),
+    rgb(24, 40, 222)
+  );
+  border-radius: 33px;
+  box-shadow: 0px 0px 11px rgb(0, 0, 0);
+  color: aliceblue;
+  margin-top: 5px;
+  padding: 3px;
+}
+.row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+.nomePro {
+  background-image: -webkit-linear-gradient(
+    233deg,
+    rgba(25, 210, 25, 0.847),
+    rgb(24, 40, 222)
+  );
+  text-align: center;
+  text-shadow: #3c29cd 0px 0px 11px;
+  color: rgba(24, 206, 43, 0.918);
+}
+.overflow {
+  height: 50vh;
+  overflow: scroll;
+  scrollbar-color: #26e504 #0a22d67d;
+  display: flex;
+  border-top-left-radius: 33px;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 83vw;
+  padding: 13px;
+  margin: auto 33px;
+  box-shadow: 0px 0px 11px black, inset 0.1em 0.1em 0.2em green,
+    inset -0.1em -0.1em 0.2em blue;
+}
+
+p {
+  box-shadow: 0px 0px 11px black, inset 0.1em 0.1em 0.2em green,
+    inset -0.1em -0.1em 0.2em blue;
+  border-radius: 33px;
+  width: 89%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1vw;
+  padding: 3px;
+  font-weight: 900 bolder;
+  letter-spacing: 1px;
+}
+input {
+  text-align: center;
+  height: 2vw;
+  margin: 3px;
+  border-radius: 33px;
+  border: none;
+  outline-color: yellowgreen;
+  box-shadow: 0px 0px 11px black, inset 0.1em 0.1em 0.2em green,
+    inset -0.1em -0.1em 0.2em blue;
+}
+.btn {
+  background-image: -webkit-linear-gradient(
+    233deg,
+    rgba(25, 210, 25, 0.847),
+    rgb(24, 40, 222)
+  );
+  height: 3vw;
+  width: 25vw;
+  margin: auto;
+  margin-top: 100px;
+  border: none;
+  color: aliceblue;
+  border-radius: 33px;
+  cursor: pointer;
+  font-size: large;
+  letter-spacing: 1px;
+  box-shadow: 0px 0px 11px black, inset 0.1em 0.1em 0.2em green,
+    inset -0.1em -0.1em 0.2em blue;
+}
+.btn:hover {
+  opacity: 89%;
+  height: 3.5vw;
+  width: 25.5vw;
+  transition: 0.5s;
+}
+aside {
+  background-image: -webkit-linear-gradient(
+    233deg,
+    rgba(25, 210, 25, 0.847),
+    rgb(24, 40, 222)
+  );
+  display: flex;
+  width: 10vw;
+  flex-direction: column;
+}
+.btn-lixeira {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btn-lixeira img:hover {
+  height: 3.5vw;
+  transition: 0.5s;
+}
+img {
+  height: 3vw;
+}
+aside button{
+  background-image: -webkit-linear-gradient(
+    233deg,
+    rgba(25, 210, 25, 0.847),
+    rgb(24, 40, 222)
+  );
+  border-radius: 33px;
+  border: none;
+  height: 3vw;
+  width: 100%;
+  color: aliceblue;
+  box-shadow: 0px 0px 21px black ;
+  margin-top: 13px;
+  cursor: pointer;
+}
+aside button:hover{
+  background: aliceblue;
+  color: black;
+  width:100%;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transition: .5s;
+
+}
+
+
